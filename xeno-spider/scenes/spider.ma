@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: spider.ma
-//Last modified: Wed, Aug 21, 2024 02:05:26 PM
+//Last modified: Wed, Aug 21, 2024 02:07:58 PM
 //Codeset: 1252
 requires maya "2025ff03";
 requires "stereoCamera" "10.0";
@@ -15,7 +15,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Windows 11 IoT Enterprise LTSC 2024 v2009 (Build: 26100)";
-fileInfo "UUID" "588AFA13-4784-AC33-089C-EE8584B180C2";
+fileInfo "UUID" "90040F0B-4187-42F0-52F9-379261D0293B";
 fileInfo "exportedFrom" "C:/Maya Projects/massey-maya/xeno-spider/scenes/spider.0004.mb";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
@@ -82036,9 +82036,6 @@ createNode shadingEngine -n "phage_megaphageSG";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo18";
 	rename -uid "0FE0F24A-4CEF-F3A2-A84E-E09CC086BA57";
-createNode groupId -n "groupId56";
-	rename -uid "5193971D-4A2E-8496-0053-7981EFF84976";
-	setAttr ".ihi" 0;
 createNode animCurveTA -n "bud_leg_clip_front_right_rotateX";
 	rename -uid "DF7D7F68-4C82-4E48-3151-F9A17EC71799";
 	setAttr ".tan" 18;
@@ -82116,6 +82113,9 @@ createNode groupId -n "pasted__groupId63";
 	setAttr ".ihi" 0;
 createNode groupId -n "pasted__groupId62";
 	rename -uid "9ACD1BAA-427C-AC24-B6A8-49ABAADD7A9E";
+	setAttr ".ihi" 0;
+createNode groupId -n "groupId56";
+	rename -uid "5193971D-4A2E-8496-0053-7981EFF84976";
 	setAttr ".ihi" 0;
 select -ne :time1;
 	setAttr ".o" 1;
